@@ -4,11 +4,8 @@ body {
   margin: 0;
   padding: 0; }
 
-.container {
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%; }
+.center-elements {
+  margin: 0 auto; }
 
 .white-text {
   color: #ffffff; }
@@ -39,6 +36,12 @@ body {
 
 .dark-blue-bg-opacity {
   background: rgba(5, 21, 45, 0.9); }
+
+.container {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%; }
 
 @media (min-width: 567px) {
   .container {

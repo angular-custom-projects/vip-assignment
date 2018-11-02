@@ -1,17 +1,21 @@
 import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
 import {FlexLayoutModule} from '@angular/flex-layout';
+import {AngularFontAwesomeModule} from 'angular-font-awesome';
+
 import {MaterialModule} from '../material/material.module';
 
 @NgModule({
     imports: [
         CommonModule,
         MaterialModule,
-        FlexLayoutModule
+        FlexLayoutModule,
+        AngularFontAwesomeModule
     ],
     exports: [
         MaterialModule,
-        FlexLayoutModule
+        FlexLayoutModule,
+        AngularFontAwesomeModule
     ],
     declarations: []
 })

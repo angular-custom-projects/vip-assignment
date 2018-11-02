@@ -6,13 +6,13 @@ body {
   padding: 0;
 }
 
-.container {
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
+//general styles
+.center-elements {
+  margin: 0 $auto;
 }
+//end general styles
 
+//colors
 .white-text {
   color: $white-color;
 }
@@ -51,6 +51,14 @@ body {
 
 .dark-blue-bg-opacity {
   background: $dark-blue-color-opacity;
+}
+//end colors
+
+.container {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
 @media (min-width: 567px) {
