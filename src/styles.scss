@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
-
+@import "./app/scss-partials/variables";
 body {
   margin: 0;
   padding: 0;
@@ -11,6 +11,46 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+}
+
+.white-text {
+  color: $white-color;
+}
+
+.gray-color {
+  color: $gray-color;
+}
+
+.orange-color {
+  color: $orange-color;
+}
+
+.light-blue-color {
+  color: $light-blue-color;
+}
+
+.blue-color {
+  color: $blue-color;
+}
+
+.dark-blue-color {
+  color: $dark-blue-color;
+}
+
+.orange-bg {
+  background-color: $orange-color;
+}
+
+.blue-linear-bg {
+  background-image: $blue-linear-color;
+}
+
+.blue-bg-opacity {
+  background-color: $blue-color-opacity;
+}
+
+.dark-blue-bg-opacity {
+  background: $dark-blue-color-opacity;
 }
 
 @media (min-width: 567px) {

@@ -1,3 +1,12 @@
+#banner {
+  height: auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url(https://dwj7fa0133ng0.cloudfront.net/cap/generic_lp/VIP_lp/VIP_MOB.jpg); }
 
+@media (min-width: 992px) {
+  #banner {
+    background-image: url(https://dwj7fa0133ng0.cloudfront.net/cap/generic_lp/VIP_lp/VIP_2.jpg); } }
 
 /*# sourceMappingURL=app.component.css.map */

@@ -1,0 +1,33 @@
+@import "functions";
+//===colors===
+$white-color: #ffffff;
+$gray-color: #718089;
+$orange-color: #faa31c;
+$light-blue-color: #337ab7;
+$blue-color: rgb(0, 89, 167);
+$dark-blue-color: #1a2650;
+$blue-linear-color: linear-gradient(to bottom, #00285e, #00234e, #001d3f, #001730, #000f21);
+$blue-color-opacity: rgba(0, 89, 167, 0.9);
+$dark-blue-color-opacity: rgba(5,21,45, 0.9);
+
+//===fonts===
+$lato-regular: latoregular;
+$lato-bold: latobold;
+$size-11: em(11px);
+$size-12: em(12px);
+$size-13: em(13px);
+$size-14: em(14px);
+$size-17: em(17px);
+$size-18: em(18px);
+$size-19: em(19px);
+$size-20: em(20px);
+$size-23: em(23px);
+$size-60: em(60px);
+
+//===test-transform===
+$uppercase: uppercase;
+$lowercase: lowercase;
+//===sizes===
+$full: 100%;
+$half: 50%;
+$auto: auto;

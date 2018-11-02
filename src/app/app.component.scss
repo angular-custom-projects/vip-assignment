@@ -1,0 +1,14 @@
+@import "./scss-partials/variables";
+@import "./scss-partials/mixins";
+
+#banner {
+  height: $auto;
+  @include background-properties();
+  background-image: url(https://dwj7fa0133ng0.cloudfront.net/cap/generic_lp/VIP_lp/VIP_MOB.jpg);
+}
+
+@media (min-width: 992px) {
+  #banner {
+    background-image: url(https://dwj7fa0133ng0.cloudfront.net/cap/generic_lp/VIP_lp/VIP_2.jpg);
+  }
+}

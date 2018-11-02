@@ -10,6 +10,36 @@ body {
   margin-right: auto;
   width: 100%; }
 
+.white-text {
+  color: #ffffff; }
+
+.gray-color {
+  color: #718089; }
+
+.orange-color {
+  color: #faa31c; }
+
+.light-blue-color {
+  color: #337ab7; }
+
+.blue-color {
+  color: #0059a7; }
+
+.dark-blue-color {
+  color: #1a2650; }
+
+.orange-bg {
+  background-color: #faa31c; }
+
+.blue-linear-bg {
+  background-image: linear-gradient(to bottom, #00285e, #00234e, #001d3f, #001730, #000f21); }
+
+.blue-bg-opacity {
+  background-color: rgba(0, 89, 167, 0.9); }
+
+.dark-blue-bg-opacity {
+  background: rgba(5, 21, 45, 0.9); }
+
 @media (min-width: 567px) {
   .container {
     width: 530px;
