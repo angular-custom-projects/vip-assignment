@@ -1,0 +1,23 @@
+.risk_sticky_fx {
+  background: rgba(0, 89, 167, 0.9);
+  font-family: "Source Sans Pro",Arial,sans-serif;
+  color: #ffffff;
+  position: fixed;
+  bottom: 0;
+  z-index: 99999;
+  font-weight: 300;
+  width: 100%;
+  font-size: 0.875em;
+  line-height: 1.25em;
+  left: 0;
+  padding: 0.6875em 0; }
+
+.escorrection {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 1.0625em;
+  color: #ffffff;
+  margin: 0 auto; }
+
+/*# sourceMappingURL=fixed-bottom.component.css.map */

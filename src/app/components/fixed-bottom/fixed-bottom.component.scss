@@ -1,0 +1,25 @@
+@import "../../scss-partials/variables";
+@import "../../scss-partials/mixins";
+
+.risk_sticky_fx {
+  background: $blue-color-opacity;
+  font-family: "Source Sans Pro",Arial,sans-serif;
+  color: $white-color;
+  position: fixed;
+  bottom: 0;
+  z-index: 99999;
+  font-weight: 300;
+  width: $full;
+  font-size: $size-14;
+  line-height: $size-20;
+  left: 0;
+  padding: $size-11 0;
+}
+
+.escorrection {
+  @include latoregular();
+  font-size: $size-16;
+  line-height: $size-17;
+  color: $white-color;
+  margin: 0 auto;
+}
