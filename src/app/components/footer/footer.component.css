@@ -1,8 +1,61 @@
 .footer-top-icon {
+  background-image: url(//dwj7fa0133ng0.cloudfront.net/cap/uploads/footer/generic_sprite_NEW+16.07.18.svg);
+  background-repeat: no-repeat;
   background-position: -67px -90px;
+  background-size: 1559px 867px;
   width: 265px;
   height: 65px;
-  margin-bottom: -4px; }
+  display: inline-block;
+  margin: 5px 6px 0 6px; }
+
+.max-width-265 {
+  width: 265px;
+  margin-top: 1.125em;
+  font-size: 1.4375em; }
+
+.inner-footer {
+  padding: 60px 0 120px 0; }
+
+.menu-title {
+  color: #5d7589;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 0.6875em;
+  line-height: 1.25em;
+  margin: 0 0 20px; }
+
+.site-menu-map {
+  padding: 0;
+  margin: 0 0 0.6875em 0; }
+
+.site-menu-map li {
+  list-style-type: none;
+  text-align: center; }
+
+.site-menu-map li a {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 0.75em;
+  color: #b0b0b0;
+  line-height: 1.25em;
+  text-decoration: none; }
+
+.site-menu-map li a:hover {
+  color: #1f7aff; }
+
+.footer-paragraph {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: #718089;
+  font-size: 0.75em;
+  line-height: 1.25em; }
+
+.inner-footer-text {
+  padding: 0 3.75em 0 0.6875em; }
+
+.inner-footer-icon {
+  padding: 3.75em 0 0 3.75em; }
 
 .footer-icons {
   background-image: url(//dwj7fa0133ng0.cloudfront.net/cap/uploads/footer/generic_sprite_NEW+16.07.18.svg);
@@ -11,9 +64,55 @@
   margin: 5px 6px;
   background-size: 1559px 867px; }
 
-.max-width-265 {
-  width: 265px;
-  margin-top: 1.125em;
-  font-size: 1.4375em; }
+.footer-award-1 {
+  background-position: -72px -218px;
+  width: 62px;
+  height: 62px; }
+
+.footer-award-2 {
+  background-position: -203px -219px;
+  width: 67px;
+  height: 60px; }
+
+.footer-award-3 {
+  background-position: -347px -219px;
+  width: 61px;
+  height: 60px; }
+
+.footer-award-4 {
+  background-position: -491px -218px;
+  width: 55px;
+  height: 61px; }
+
+.footer-award-5 {
+  background-position: -634px -219px;
+  width: 58px;
+  height: 61px; }
+
+.awards-subtext {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 0.6875em;
+  color: #1f7aff;
+  line-height: 1.25em;
+  letter-spacing: 1px; }
+
+@media (max-width: 991px) {
+  .margin-bottom-20-tablet {
+    margin-bottom: 20px; } }
+@media (max-width: 991px) and (min-width: 960px) {
+  .margin-right-10-tablet {
+    margin-right: 10px !important; } }
+@media (min-width: 768px) {
+  .inner-footer-text {
+    border-right: 1px solid #606060; } }
+@media (max-width: 767px) {
+  .inner-footer-text {
+    padding: 0 0.6875em;
+    max-width: 100% !important;
+    text-align: center; }
+
+  .all-awards-container {
+    display: none; } }
 
 /*# sourceMappingURL=footer.component.css.map */
