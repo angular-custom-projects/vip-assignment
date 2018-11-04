@@ -1,3 +1,19 @@
+.form {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: rgba(0, 89, 167, 0.9);
+  padding: 25px 35px;
+  width: 100%; }
 
+.form-header {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 1.25em;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase; }
+
+.full-width {
+  width: 100%; }
 
 /*# sourceMappingURL=regestration-form.component.css.map */

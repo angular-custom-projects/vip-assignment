@@ -1,1 +1,22 @@
 @import "../../scss-partials/variables";
+@import "../../scss-partials/mixins";
+
+.form {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: $blue-color-opacity;
+  padding: 25px 35px;
+  width: 100%;
+}
+
+.form-header {
+  @include latoregular();
+  font-size: $size-20;
+  text-align: center;
+  color: $white-color;
+  text-transform: $uppercase;
+}
+
+.full-width {
+  width: $full;
+}

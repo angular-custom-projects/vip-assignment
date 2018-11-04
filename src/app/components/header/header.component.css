@@ -3,9 +3,16 @@
   padding-bottom: 1.25em; }
 
 a[mat-raised-button] {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
   background: #faa31c;
   color: #ffffff;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.875em; }
+
+a[mat-raised-button]:hover {
+  background-color: #0c5ea6; }
 
 .fxprimus-logo {
   height: 170px;

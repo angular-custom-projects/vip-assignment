@@ -2,6 +2,7 @@ import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
 import {FlexLayoutModule} from '@angular/flex-layout';
 import {AngularFontAwesomeModule} from 'angular-font-awesome';
+import {FormsModule} from '@angular/forms';
 
 import {MaterialModule} from '../material/material.module';
 import {FooterComponent} from '../../components/footer/footer.component';
@@ -18,12 +19,15 @@ import {FixedBottomComponent} from '../../components/fixed-bottom/fixed-bottom.c
         CommonModule,
         MaterialModule,
         FlexLayoutModule,
-        AngularFontAwesomeModule
+        AngularFontAwesomeModule,
+        FormsModule
     ],
     exports: [
+        CommonModule,
         MaterialModule,
         FlexLayoutModule,
         AngularFontAwesomeModule,
+        FormsModule,
         RegestrationFormComponent,
         HeaderComponent,
         BottomStripComponent,

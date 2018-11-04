@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./regestration-form.component.scss']
 })
 export class RegestrationFormComponent implements OnInit {
+    countries = ['Cyprus', 'Malaysia', 'USA'];
 
   constructor() { }
 

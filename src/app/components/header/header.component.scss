@@ -1,4 +1,5 @@
 @import "../../scss-partials/variables";
+@import "../../scss-partials/mixins";
 //general styles
 .padding-top-bottom-11 {
   padding-top: $size-20;
@@ -6,9 +7,16 @@
 }
 
 a[mat-raised-button] {
+  @include latobold();
   background: $orange-color;
   color: $white-color;
   text-transform: $uppercase;
+  letter-spacing: 1px;
+  font-size: $size-14;
+}
+
+a[mat-raised-button]:hover {
+  background-color: $login-hover;
 }
 
 .fxprimus-logo {
