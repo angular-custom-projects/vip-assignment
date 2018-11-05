@@ -215,7 +215,7 @@
 
 @media (max-width: 991px) {
   .on-mob-center {
-    margin: 0px auto;
+    margin: 40px auto 0;
     text-align: center;
   }
 
@@ -229,6 +229,12 @@
   
   .fxprimus-award {
     margin: 0 auto;
+  }
+}
+
+@media (max-width: 599px) {
+  .flex-95-max-599 {
+    max-width: 95% !important;
   }
 }
 

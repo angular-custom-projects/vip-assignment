@@ -20,3 +20,27 @@
 .full-width {
   width: $full;
 }
+
+.mat-input-element {
+  color: $white-color;
+}
+
+button[mat-raised-button] {
+  color: $white-color;
+  background-color: $orange-color;
+  border: 1px solid $orange-color;
+  text-transform: $uppercase;
+}
+
+button[mat-raised-button]:hover {
+  background-color: $blue-color;
+  border: 1px solid $orange-color;
+}
+
+.trading-margin {
+  @include latoregular();
+  font-size: $size-14;
+  line-height: 16px !important;
+  color: $white-color;
+  margin: 10px auto;
+}

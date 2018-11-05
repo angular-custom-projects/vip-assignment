@@ -184,7 +184,7 @@
     background-image: url(https://dwj7fa0133ng0.cloudfront.net/cap/generic_lp/VIP_lp/VIP_2.jpg); } }
 @media (max-width: 991px) {
   .on-mob-center {
-    margin: 0px auto;
+    margin: 40px auto 0;
     text-align: center; }
 
   .flex-column-max-991 {
@@ -195,6 +195,9 @@
 
   .fxprimus-award {
     margin: 0 auto; } }
+@media (max-width: 599px) {
+  .flex-95-max-599 {
+    max-width: 95% !important; } }
 @media (max-width: 1199px) and (min-width: 992px) {
   .vip-services {
     width: 475px !important;

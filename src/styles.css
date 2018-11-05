@@ -63,5 +63,11 @@ body {
   .container {
     width: 1140px;
     max-width: 100%; } }
+@media (max-width: 991px) {
+  .text-center-tablet {
+    text-align: center; }
+
+  .center-elements-tablet {
+    margin: 0 auto; } }
 
 /*# sourceMappingURL=styles.css.map */

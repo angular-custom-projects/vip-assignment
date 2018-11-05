@@ -16,4 +16,25 @@
 .full-width {
   width: 100%; }
 
+.mat-input-element {
+  color: #ffffff; }
+
+button[mat-raised-button] {
+  color: #ffffff;
+  background-color: #faa31c;
+  border: 1px solid #faa31c;
+  text-transform: uppercase; }
+
+button[mat-raised-button]:hover {
+  background-color: #0059a7;
+  border: 1px solid #faa31c; }
+
+.trading-margin {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 0.875em;
+  line-height: 16px !important;
+  color: #ffffff;
+  margin: 10px auto; }
+
 /*# sourceMappingURL=regestration-form.component.css.map */
