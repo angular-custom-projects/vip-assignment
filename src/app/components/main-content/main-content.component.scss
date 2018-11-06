@@ -1,1 +1,86 @@
 @import "../../scss-partials/variables";
+@import "../../scss-partials/mixins";
+
+#first-section {
+  background-color: #f3f8ff;
+  padding: 40px 0;
+}
+
+h3 {
+  @include latobold();
+  font-size: 37px;
+  margin-bottom: 20px;
+  margin-top: 0;
+  color: $blue-color;
+}
+
+.benefit-title {
+  @include latobold();
+  font-size: $size-13;
+  color: #5d6770;
+  line-height: 17px;
+  margin-bottom: 15px;
+}
+
+.benefit-desc {
+  @include latoregular();
+  font-size: $size-13;
+  color: #5d6770;
+  line-height: 17px;
+  max-width: 249px;
+}
+
+.icon {
+  background-image: url(https://dwj7fa0133ng0.cloudfront.net/cap/generic_lp/VIP_lp/VIP_LP_sprite_2.svg);
+  background-repeat: no-repeat;
+  height: 83px;
+  margin: 15px auto;
+}
+
+.icon-1 {
+  width: 93px;
+  background-size: 749px 558px;
+  background-position: -570px -116px;
+}
+
+.icon-2 {
+  width: 84px;
+  background-size: 749px 558px;
+  background-position: -323px -116px;
+}
+
+.icon-3 {
+  width: 80px;
+  background-size: 1024px 558px;
+  background-position: -573px -113px;
+}
+
+.icon-4 {
+  width: 101px;
+  background-size: 749px 558px;
+  background-position: -564px -353px;
+}
+
+.icon-5 {
+  width: 99px;
+  background-size: 749px 558px;
+  background-position: -312px -357px;
+}
+
+.icon-6 {
+  width: 81px;
+  background-size: 749px 558px;
+  background-position: -436px -360px;
+}
+
+@media (max-width: 525px) {
+  h3 {
+    font-size: 5.5vw;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 960px) {
+  .benefit-desc {
+    max-width: 229px;
+  }
+}
