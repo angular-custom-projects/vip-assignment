@@ -1,3 +1,71 @@
+.container {
+  padding-bottom: 65px; }
 
+h3 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 1.1875em;
+  color: #0d5fa7;
+  line-height: 21px;
+  margin-bottom: 25px; }
+
+.single-benefit-container {
+  margin-bottom: 25px; }
+
+.icon {
+  background-image: url(//dwj7fa0133ng0.cloudfront.net/cap/uploads/lps/common/generic_landingpage.png);
+  height: 84px;
+  width: 90px; }
+
+.icon-1 {
+  background-position: -18px -177px; }
+
+.icon-2 {
+  background-position: -105px -139px;
+  background-size: 512px auto; }
+
+.icon-3 {
+  background-position: -220px -161px;
+  background-size: 546px auto; }
+
+.icon-4 {
+  background-position: -379px -180px; }
+
+.icon-5 {
+  background-position: -500px -181px; }
+
+.icon-6 {
+  background-position: -21px -314px; }
+
+.icon-7 {
+  background-position: -130px -310px;
+  background-size: 604px auto; }
+
+.icon-8 {
+  background-position: -251px -310px;
+  background-size: 604px auto; }
+
+.icon-9 {
+  background-position: -374px -309px; }
+
+.icon-10 {
+  background-position: -500px -317px; }
+
+p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 0.6875em;
+  color: #718089;
+  width: 116px;
+  text-align: center; }
+
+@media (min-width: 960px) and (max-width: 991px) {
+  .single-benefit-container {
+    max-width: 33.3333333% !important;
+    min-width: 33.3333333% !important;
+    flex-direction: column !important; }
+
+  h3 {
+    text-align: center; } }
 
 /*# sourceMappingURL=trading-benefits.component.css.map */
