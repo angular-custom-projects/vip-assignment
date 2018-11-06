@@ -25,6 +25,14 @@
   color: $white-color;
 }
 
+mat-label {
+  color: $white-color !important;
+}
+
+mat-form-field.mat-focused mat-label {
+  color: $orange-color !important;
+}
+
 button[mat-raised-button] {
   color: $white-color;
   background-color: $orange-color;

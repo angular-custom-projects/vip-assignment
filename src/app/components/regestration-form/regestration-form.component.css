@@ -19,6 +19,12 @@
 .mat-input-element {
   color: #ffffff; }
 
+mat-label {
+  color: #ffffff !important; }
+
+mat-form-field.mat-focused mat-label {
+  color: #faa31c !important; }
+
 button[mat-raised-button] {
   color: #ffffff;
   background-color: #faa31c;
