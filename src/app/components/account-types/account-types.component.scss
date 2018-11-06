@@ -1,1 +1,56 @@
 @import "../../scss-partials/variables";
+@import "../../scss-partials/mixins";
+
+.trade-container {
+  margin: 50px auto;
+}
+
+.trade-instruments {
+  @include latobold();
+  font-size: $size-19;
+  color: #0d5fa7;
+}
+
+.trade-instruments small {
+  font-size: $size-17;
+  color: #7c8d9a;
+}
+
+a[mat-raised-button] {
+  @include latobold();
+  background-color: #40C4FF;
+  color: $white-color;
+  text-transform: $uppercase;
+  letter-spacing: 1px;
+  font-size: $size-20;
+  padding: 15px 0;
+}
+a[mat-raised-button].orange-btn {
+  background-color: $orange-color;
+}
+
+a[mat-raised-button]:hover {
+  background-color: #1a167f;
+}
+
+.escorrection {
+  font-size: $size-14;
+  @include latoregular();
+  line-height: 16px;
+  color: #19335c;
+}
+
+@media (max-width: 991px) and (min-width: 960px) {
+  .trade-instruments {
+    font-size: $size-15;
+  }
+
+  .trade-instruments small {
+    font-size: $size-14;
+  }
+
+  a[mat-raised-button] {
+    font-size: 1.5vw;
+    padding: 7px 0;
+  }
+}

@@ -1,3 +1,39 @@
-<p>
-  account-types works!
-</p>
+<div class="container trade-container"
+     fxLayout="row wrap">
+    <div fxFlex.gt-sm="50%"
+         fxFlex="100%">
+        <p class="trade-instruments"
+           ngStyle.xs="padding: 0 15px; text-align: center"
+           ngStyle.sm="text-align: center">
+            Trade Over 120 Instruments Including Currency Pairs,
+            <br [fxShow.gt-sm]="true"
+                [fxHide]="true">
+            Commodities, CFDs & Indices |
+            <small>Choose your account type:</small>
+        </p>
+    </div>
+    <div fxLayout="column"
+         fxFlex.gt-sm="50%"
+         fxFlex="100%"
+         ngStyle.gt-sm="margin-top: 16px">
+        <div fxLayout="row wrap"
+             fxLayoutAlign="space-between"
+             fxLayoutAlign.xs="center center">
+            <a href="https://www.fxprimus.com/en/int-demo"
+               target="_blank"
+               mat-raised-button
+               fxFlex="45%"
+               fxFlex.md="47%"
+               fxFlex.xs="300px"
+               ngStyle.xs="margin-bottom: 15px">demo account</a>
+            <a class="orange-btn"
+               href="https://account.fxprimus.com/en/int-register/individual"
+               target="_blank"
+               mat-raised-button
+               fxFlex="45%"
+               fxFlex.md="47%"
+               fxFlex.xs="300px">open account</a>
+        </div>
+        <p class="text-center escorrection">Trading on margin product involves a high level of risk</p>
+    </div>
+</div>

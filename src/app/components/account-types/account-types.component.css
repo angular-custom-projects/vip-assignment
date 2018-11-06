@@ -1,3 +1,48 @@
+.trade-container {
+  margin: 50px auto; }
 
+.trade-instruments {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 1.1875em;
+  color: #0d5fa7; }
+
+.trade-instruments small {
+  font-size: 1.0625em;
+  color: #7c8d9a; }
+
+a[mat-raised-button] {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  background-color: #40C4FF;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1.25em;
+  padding: 15px 0; }
+
+a[mat-raised-button].orange-btn {
+  background-color: #faa31c; }
+
+a[mat-raised-button]:hover {
+  background-color: #1a167f; }
+
+.escorrection {
+  font-size: 0.875em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  line-height: 16px;
+  color: #19335c; }
+
+@media (max-width: 991px) and (min-width: 960px) {
+  .trade-instruments {
+    font-size: 0.9375em; }
+
+  .trade-instruments small {
+    font-size: 0.875em; }
+
+  a[mat-raised-button] {
+    font-size: 1.5vw;
+    padding: 7px 0; } }
 
 /*# sourceMappingURL=account-types.component.css.map */
